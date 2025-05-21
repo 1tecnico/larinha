@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capas de Celular Personalizadas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3e5f5;
+    }
+
+    header {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    nav {
+      background-color: #7b1fa2;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Capas+Personalizadas') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 28px;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .produtos img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    .sobre {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #4a148c;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ce93d8;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #7b1fa2;
+    }
+
+    button {
+      background-color: #7b1fa2;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #4a148c;
+    }
+
+    footer {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Capas de Celular Personalizadas</h1>
+    <p>Estilo e proteção com a sua cara!</p>
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="hero">
+    <div>Crie sua capa do seu jeito</div>
+  </div>
+
+  <section id="produtos">
+    <h2 style="color:#4a148c">Nossos Produtos</h2>
+    <div class="produtos">
+      <img src="https://via.placeholder.com/200x300?text=Capa+1" alt="Capa 1">
+      <img src="https://via.placeholder.com/200x300?text=Capa+2" alt="Capa 2">
+      <img src="https://via.placeholder.com/200x300?text=Capa+3" alt="Capa 3">
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2 style="color:#4a148c">Sobre Nós</h2>
+    <div class="sobre">
+      <p>Somos especialistas em capas de celular personalizadas. Com materiais de alta qualidade e uma variedade incrível de designs, oferecemos a possibilidade de você criar uma capa que combine com seu estilo e sua personalidade. Seja para presentear alguém ou para uso pessoal, nossas capas são únicas como você.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 style="color:#4a148c">Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Capas Personalizadas. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
